@@ -32,3 +32,43 @@
         transform: rotate(360deg);
     }
 }
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1e3a5f;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2d4a6f;
+}
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Focus styles */
+*:focus-visible {
+    outline: 2px solid #f7941d;
+    outline-offset: 2px;
+}
+
+/* Selection color */
+::selection {
+    background-color: #1e3a5f;
+    color: white;
+}
+
+/* Remove text-align center from App */
+.App {
+    text-align: left;
+}
