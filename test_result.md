@@ -101,3 +101,194 @@
 #====================================================================================================
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
+
+user_problem_statement: "Test the DUSC (Downtown United Soccer Club) website clone at http://localhost:3000. This is a frontend-only clone with mock data."
+
+frontend:
+  - task: "Homepage Hero Section"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/Home.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "testing"
+        comment: "Initial testing required - Hero section with DUSC title, EST. 1982 - NYC text, and LEARN MORE button"
+
+  - task: "Homepage Program Cards"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/Home.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "testing"
+        comment: "Initial testing required - Four program cards (Academy, Rec League, Classes, Camps) with hover effects"
+
+  - task: "Homepage About Section"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/Home.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "testing"
+        comment: "Initial testing required - About section with mission text and two CTA buttons"
+
+  - task: "Homepage News Section"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/Home.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "testing"
+        comment: "Initial testing required - News section with 6 news cards"
+
+  - task: "Homepage Find A Program Section"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/Home.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "testing"
+        comment: "Initial testing required - Find A Program section with dark blue background"
+
+  - task: "Homepage Quote Section"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/Home.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "testing"
+        comment: "Initial testing required - Quote section at the bottom"
+
+  - task: "Header Navigation"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/components/layout/Header.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "testing"
+        comment: "Initial testing required - Header with DUSC logo, dropdown menus, and navigation links"
+
+  - task: "Footer Component"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/components/layout/Footer.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "testing"
+        comment: "Initial testing required - Footer with logo, quick links, contact info, and social icons"
+
+  - task: "About Page"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/About.jsx"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "testing"
+        comment: "Initial testing required - About page with WE ARE DUSC section, Club Mission, Vision, and Core Principles"
+
+  - task: "Staff & Board Page"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/StaffBoard.jsx"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "testing"
+        comment: "Initial testing required - Staff & Board page with five staff sections and staff member avatars"
+
+  - task: "Classes Page"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/Classes.jsx"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "testing"
+        comment: "Initial testing required - Classes page with hero, quick links, class offerings, and FAQs accordion"
+
+  - task: "Camps Page"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/Camps.jsx"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "testing"
+        comment: "Initial testing required - Camps page with hero, camp cards, and registration CTA"
+
+  - task: "Register Page"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/Register.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "testing"
+        comment: "Initial testing required - Register page with age/gender filters and programs grid"
+
+  - task: "Sponsor Page"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/Sponsor.jsx"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "testing"
+        comment: "Initial testing required - Sponsor page with hero, sponsors sections, and contact form"
+
+metadata:
+  created_by: "testing_agent"
+  version: "1.0"
+  test_sequence: 1
+
+test_plan:
+  current_focus:
+    - "Homepage Hero Section"
+    - "Homepage Program Cards"
+    - "Header Navigation"
+    - "Register Page"
+    - "Footer Component"
+  stuck_tasks: []
+  test_all: true
+  test_priority: "high_first"
+
+agent_communication:
+  - agent: "testing"
+    message: "Starting comprehensive testing of DUSC website clone. Will test all pages and components systematically, focusing on high priority items first."
