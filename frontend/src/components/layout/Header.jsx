@@ -52,16 +52,19 @@ const Header = () => {
       <div className="bg-white border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-center items-center py-2 gap-4">
-            <img 
-              src="https://upload.wikimedia.org/wikipedia/en/thumb/6/67/MLS_Next_logo.svg/200px-MLS_Next_logo.svg.png" 
-              alt="MLS Next" 
-              className="h-6 object-contain"
-            />
-            <img 
-              src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/US_Soccer_Federation_logo.svg/200px-US_Soccer_Federation_logo.svg.png" 
-              alt="US Soccer" 
-              className="h-6 object-contain"
-            />
+            <div className="flex items-center gap-1 text-[#1e3a5f]">
+              <svg viewBox="0 0 60 30" className="h-6 w-12">
+                <text x="5" y="20" fontSize="10" fontWeight="bold" fill="#00205b">MLS</text>
+                <text x="32" y="20" fontSize="8" fill="#00205b">NEXT</text>
+              </svg>
+            </div>
+            <div className="flex items-center">
+              <svg viewBox="0 0 40 40" className="h-7 w-7">
+                <circle cx="20" cy="20" r="18" fill="none" stroke="#002868" strokeWidth="2"/>
+                <path d="M12 15 L20 10 L28 15 L28 25 L20 30 L12 25 Z" fill="#bf0a30"/>
+                <circle cx="20" cy="20" r="5" fill="white"/>
+              </svg>
+            </div>
           </div>
         </div>
       </div>
