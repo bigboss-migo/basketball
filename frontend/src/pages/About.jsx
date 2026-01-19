@@ -64,13 +64,19 @@ const About = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Video Embed */}
             <div className="relative aspect-video bg-gray-900 rounded-lg overflow-hidden shadow-2xl">
-              <iframe
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                title="We Are DUSC"
-                className="w-full h-full"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
+              <img 
+                src="https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=800&h=450&fit=crop"
+                alt="DUSC Soccer"
+                className="w-full h-full object-cover"
               />
+              <div className="absolute inset-0 flex items-center justify-center bg-black/30">
+                <div className="w-20 h-20 bg-red-600 rounded-full flex items-center justify-center cursor-pointer hover:bg-red-700 transition-colors">
+                  <Play className="w-10 h-10 text-white ml-1" />
+                </div>
+              </div>
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+                <p className="text-white font-semibold">Together | We Are DUSC</p>
+              </div>
             </div>
 
             {/* Content */}
