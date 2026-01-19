@@ -12,7 +12,7 @@ const StaffBoard = () => {
       description: 'Our directors bring decades of youth and collegiate coaching experience to the club. Many of our Directors hold the US Soccer \'A\' license, the highest licensure offered in the US for youth coaches.',
       data: staffMembers.directors,
       link: '/staff-board/directors',
-      image: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&h=400&fit=crop'
+      image: 'https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&h=400&fit=crop'
     },
     {
       id: 'boys',
