@@ -93,7 +93,7 @@ const About = () => {
                 Serving approximately 5,000 participants annually in Downtown Manhattan and the 
                 greater NYC area, DUSC offers programs for players of all ages, genders and backgrounds. 
                 Whether starting out in our mini ballers Classes (Beginning at Age 3), or participating 
-                in our highly competitive U23 Men's or Women's teams, our professional staff offer 
+                in our highly competitive U23 Men&apos;s or Women&apos;s teams, our professional staff offer 
                 programs for all stages of development and interest.
               </p>
             </div>
