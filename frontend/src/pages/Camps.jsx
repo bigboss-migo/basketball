@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import PageHero from '../components/ui/PageHero';
-import { camps } from '../data/mockData';
+import PageHero from '@/components/ui/PageHero';
+import { camps } from '@/data/mockData';
 import { MapPin, Users, DollarSign, Calendar } from 'lucide-react';
 
 const Camps = () => {

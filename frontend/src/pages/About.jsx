@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Play } from 'lucide-react';
-import PageHero from '../components/ui/PageHero';
+import PageHero from '@/components/ui/PageHero';
 
 const About = () => {
   const visionItems = [

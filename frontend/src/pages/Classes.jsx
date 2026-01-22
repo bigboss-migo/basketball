@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import PageHero from '../components/ui/PageHero';
-import { classes } from '../data/mockData';
+import PageHero from '@/components/ui/PageHero';
+import { classes } from '@/data/mockData';
 import { Clock, MapPin, DollarSign, Users, ChevronDown, ChevronUp } from 'lucide-react';
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from '../components/ui/accordion';
+} from '@/components/ui/accordion';
 
 const Classes = () => {
   const classOfferings = [

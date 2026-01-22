@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, ChevronRight } from 'lucide-react';
-import { programs, news } from '../data/mockData';
+import { programs, news } from '@/data/mockData';
 
 const Home = () => {
   return (

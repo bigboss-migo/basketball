@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import PageHero from '../components/ui/PageHero';
-import { staffMembers } from '../data/mockData';
+import PageHero from '@/components/ui/PageHero';
+import { staffMembers } from '@/data/mockData';
 import { ChevronRight } from 'lucide-react';
 
 const StaffBoard = () => {

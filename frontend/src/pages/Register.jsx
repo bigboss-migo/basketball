@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import PageHero from '../components/ui/PageHero';
-import { registrationPrograms } from '../data/mockData';
+import PageHero from '@/components/ui/PageHero';
+import { registrationPrograms } from '@/data/mockData';
 import { Clock, MapPin, DollarSign, Users, Calendar, Filter, Search } from 'lucide-react';
 import {
   Select,
@@ -9,8 +9,8 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '../components/ui/select';
-import { Button } from '../components/ui/button';
+} from '@/components/ui/select';
+import { Button } from '@/components/ui/button';
 
 const Register = () => {
   const [ageFilter, setAgeFilter] = useState('all');
