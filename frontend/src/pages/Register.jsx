@@ -246,8 +246,8 @@ const Register = () => {
       <section className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <blockquote className="text-xl md:text-2xl text-[#1e3a5f] italic mb-4">
-            "A good coach is one who helps his players maximize or discover their potential. 
-            That is his principal function."
+            &ldquo;A good coach is one who helps his players maximize or discover their potential. 
+            That is his principal function.&rdquo;
           </blockquote>
           <cite className="text-gray-600">— Marcelo Bielsa, Argentina and Chile coach</cite>
         </div>
