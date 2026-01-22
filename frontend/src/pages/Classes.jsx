@@ -121,18 +121,6 @@ const Classes = () => {
         </div>
       </section>
 
-      {/* Quick Links */}
-      <section className="py-8 bg-gray-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-wrap gap-4 justify-center">
-            <a href="#register" className="px-6 py-2 bg-[#1e3a5f] text-white rounded hover:bg-[#2d4a6f] transition-colors">Schedule - Fall 2025</a>
-            <a href="#" className="px-6 py-2 bg-white text-[#1e3a5f] border border-[#1e3a5f] rounded hover:bg-gray-50 transition-colors">Scholarship Application</a>
-            <a href="#" className="px-6 py-2 bg-white text-[#1e3a5f] border border-[#1e3a5f] rounded hover:bg-gray-50 transition-colors">Resources</a>
-            <a href="#faqs" className="px-6 py-2 bg-white text-[#1e3a5f] border border-[#1e3a5f] rounded hover:bg-gray-50 transition-colors">FAQs</a>
-          </div>
-        </div>
-      </section>
-
       {/* Offerings */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
