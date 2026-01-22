@@ -138,7 +138,7 @@ const Sponsor = () => {
                 <div className="text-center py-8">
                   <CheckCircle className="w-16 h-16 text-green-500 mx-auto mb-4" />
                   <h4 className="text-xl font-semibold text-[#1e3a5f] mb-2">Message Sent!</h4>
-                  <p className="text-gray-600">We'll get back to you as soon as possible.</p>
+                  <p className="text-gray-600">We&apos;ll get back to you as soon as possible.</p>
                   <Button 
                     onClick={() => {
                       setSubmitted(false);
