@@ -105,8 +105,8 @@ const Classes = () => {
             Classes are a great way to participate at DUSC.
           </p>
           <p className="text-gray-300 mt-4 max-w-3xl">
-            Classes are designed to improve a player's fundamental soccer skills in a small group 
-            environment. All classes are taught by our professional coaching staff teaching the "DUSC Way".
+            Classes are designed to improve a player&apos;s fundamental soccer skills in a small group 
+            environment. All classes are taught by our professional coaching staff teaching the &ldquo;DUSC Way&rdquo;.
           </p>
           <div className="flex gap-1 mt-6">
             <div className="w-16 h-1 bg-[#f7941d]" />
