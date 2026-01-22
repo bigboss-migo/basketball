@@ -126,7 +126,7 @@ const Camps = () => {
       <section className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <blockquote className="text-xl md:text-2xl text-[#1e3a5f] italic mb-4">
-            "A player can only achieve his maximum when he is enjoying himself."
+            &ldquo;A player can only achieve his maximum when he is enjoying himself.&rdquo;
           </blockquote>
           <cite className="text-gray-600">— Johan Cruyff, Barcelona, Ajax and Holland</cite>
         </div>
