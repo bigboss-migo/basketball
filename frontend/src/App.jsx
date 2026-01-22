@@ -1,1 +1,33 @@
-import { BrowserRouter, Routes, Route } from \"react-router-dom\";\nimport Header from \"./components/layout/Header\";\nimport Footer from \"./components/layout/Footer\";\nimport Home from \"./pages/Home\";\nimport About from \"./pages/About\";\nimport StaffBoard from \"./pages/StaffBoard\";\nimport Classes from \"./pages/Classes\";\nimport Camps from \"./pages/Camps\";\nimport Register from \"./pages/Register\";\nimport Sponsor from \"./pages/Sponsor\";\nimport \"./index.css\";\n\nfunction App() {\n  return (\n    <BrowserRouter>\n      <Header />\n      <main className=\"min-h-screen\">\n        <Routes>\n          <Route path=\"/\" element={<Home />} />\n          <Route path=\"/about\" element={<About />} />\n          <Route path=\"/staff-board\" element={<StaffBoard />} />\n          <Route path=\"/classes\" element={<Classes />} />\n          <Route path=\"/camps\" element={<Camps />} />\n          <Route path=\"/register\" element={<Register />} />\n          <Route path=\"/sponsor\" element={<Sponsor />} />\n        </Routes>\n      </main>\n      <Footer />\n    </BrowserRouter>\n  );\n}\n\nexport default App;\n
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./components/layout/Header";
+import Footer from "./components/layout/Footer";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import StaffBoard from "./pages/StaffBoard";
+import Classes from "./pages/Classes";
+import Camps from "./pages/Camps";
+import Register from "./pages/Register";
+import Sponsor from "./pages/Sponsor";
+import "./index.css";
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Header />
+      <main className="min-h-screen">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/staff-board" element={<StaffBoard />} />
+          <Route path="/classes" element={<Classes />} />
+          <Route path="/camps" element={<Camps />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/sponsor" element={<Sponsor />} />
+        </Routes>
+      </main>
+      <Footer />
+    </BrowserRouter>
+  );
+}
+
+export default App;
