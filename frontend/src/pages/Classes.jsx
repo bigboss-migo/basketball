@@ -101,7 +101,7 @@ const Classes = () => {
           </h1>
           <p className="text-lg text-gray-300 max-w-3xl">
             Are you just starting out and want to learn new skills? Are you a seasoned player 
-            looking for repetition and refining one's skills? Good news! For both types of players, 
+            looking for repetition and refining one&apos;s skills? Good news! For both types of players, 
             Classes are a great way to participate at DUSC.
           </p>
           <p className="text-gray-300 mt-4 max-w-3xl">
