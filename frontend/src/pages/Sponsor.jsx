@@ -50,8 +50,8 @@ const Sponsor = () => {
             Sponsor
           </h1>
           <p className="text-lg text-gray-300 max-w-3xl">
-            One of DUSC Core Values is providing Soccer For All environments that are safe, 
-            fun places designed to meet the developmental needs of young players in NYC.
+            One of OHS Academy's core values is providing sports training environments that are safe, 
+            fun places designed to meet the developmental needs of young athletes in Queens Village and beyond.
           </p>
           <div className="flex gap-1 mt-6">
             <div className="w-16 h-1 bg-[#f7941d]" />
@@ -64,19 +64,21 @@ const Sponsor = () => {
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-gray-600 text-lg leading-relaxed mb-6">
-            Creating access to the game for all NYC youth regardless of the family income is a worthwhile 
-            endeavor – but it is not easy. It requires organizational commitment, lots of hard work and 
+            Creating access to quality sports training for inner city youth regardless of family income is a worthwhile 
+            endeavor — but it is not easy. It requires organizational commitment, lots of hard work and 
             creative partnerships.
           </p>
           <p className="text-gray-600 text-lg leading-relaxed">
-            We look to you - our DUSC community - to explore such collaborations. DUSC is seeking partners 
+            We look to you - our OHS Academy community - to explore such collaborations. OHS Academy is seeking partners 
             who can engage with us regarding both Community Sponsorships and Corporate Social Responsibility 
             opportunities.
           </p>
           <p className="text-[#1e3a5f] font-semibold mt-6">
             If you work in or know of an organization that shares these values, please let us know. 
             Contact us at{' '}
-            <a href="mailto:info@dusc.net" className="text-[#f7941d] hover:underline">info@dusc.net</a>
+            <a href="mailto:Ourhousesportstraining@gmail.com" className="text-[#f7941d] hover:underline">Ourhousesportstraining@gmail.com</a>
+            {' '}or call{' '}
+            <a href="tel:848-900-3361" className="text-[#f7941d] hover:underline">848-900-3361</a> (Coach Jon)
           </p>
         </div>
       </section>
@@ -232,8 +234,8 @@ const Sponsor = () => {
             {/* Image */}
             <div className="hidden lg:block">
               <img
-                src="https://images.unsplash.com/photo-1604651684573-05470013b3b9?w=800&h=600&fit=crop"
-                alt="Youth soccer"
+                src="https://images.unsplash.com/photo-1546519638-68e109498ffc?w=800&h=600&fit=crop"
+                alt="Youth basketball"
                 className="w-full h-[500px] object-cover rounded-lg shadow-xl"
               />
             </div>
@@ -248,7 +250,7 @@ const Sponsor = () => {
             Make a Direct Donation
           </h2>
           <p className="text-gray-300 mb-8">
-            Your donation helps provide soccer opportunities for all NYC youth regardless of their financial situation.
+            Your donation helps provide sports training opportunities for inner city youth regardless of their financial situation.
           </p>
           <a
             href="#"

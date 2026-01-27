@@ -7,43 +7,54 @@ const About = () => {
   const visionItems = [
     {
       icon: '🎓',
-      title: 'Provide world-class youth soccer educational experience',
-      points: ['on and off the field', 'to players, staff and parents']
+      title: 'Provide quality youth sports education',
+      points: ['on and off the court/field', 'to student athletes, staff and families']
     },
     {
       icon: '🏟️',
-      title: 'In state-of-the-art facilities',
-      points: ['on the field: outdoor and indoor', 'in classrooms', 'that also serve as a community meeting place']
+      title: 'In accessible community facilities',
+      points: ['indoor and outdoor training spaces', 'serving Queens Village and beyond', 'a home for young athletes']
     },
     {
       icon: '💰',
-      title: 'Funded sufficiently',
-      points: ['to be accessible and affordable to all']
+      title: 'Affordable programming',
+      points: ['accessible to inner city communities', 'supporting multicultural families']
     }
   ];
 
   const corePrinciples = [
     {
-      title: 'Put the best interests of the players first by emphasizing individual long-term development.',
+      title: 'Prepare student athletes for success beyond sports.',
       points: [
-        'We provide healthy balanced competition that supports the developmental goals of each player at their own pace, while instilling a passion for the game that inspires them to work hard and reach beyond their own expectations.',
-        'We seek to develop technically skilled, confident and creative players who are adaptable to the future demands of the game.'
+        'We prepare our students to think beyond just being pro athletes but successful professional people.',
+        'We emphasize education and work ethic alongside athletic development.',
+        'We help students develop leadership, discipline, and life skills through sports.'
       ]
     },
     {
-      title: 'Provide the proper environment to learn important life-skills through the sport of soccer.',
+      title: 'Build a consistent presence in our community.',
       points: [
-        'We foster a respect for the game of soccer and each player by promoting friendship, integrity and good sportsmanship in a fun, caring and supportive way.',
-        'We work in partnership with our parents and volunteers in an atmosphere of mutual respect, trust, and open communication.',
-        'We work in partnership with other soccer organizations to promote and develop a life-long love of soccer within and beyond our local community.'
+        'As former student athletes, park players, and dedicated fans of the game, we believe we can make a lasting impact.',
+        'We work in partnership with families to support both academic and athletic endeavors.',
+        'We extend our efforts to connect with different communities within the 5 boroughs.'
       ]
     },
     {
-      title: 'Inclusion of all members of our community.',
+      title: 'Give back locally and focus on fundamentals.',
       points: [
-        'We provide an opportunity for all the children and families in our community, regardless of their financial resources or athletic ability to achieve their soccer goals.'
+        'Based out of Queens Village, NY, we intend to keep giving back to our local community.',
+        'We focus our foundation on teaching and aiding the fundamentals of each sport.'
       ]
     }
+  ];
+
+  const photoGrid = [
+    'https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&h=300&fit=crop',
+    'https://images.unsplash.com/photo-1574623452334-1e0ac2b3ccb4?w=400&h=300&fit=crop',
+    'https://images.unsplash.com/photo-1461896836934- voices-at-a-crossroad?w=400&h=300&fit=crop',
+    'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&h=300&fit=crop',
+    'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=400&h=300&fit=crop',
+    'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=400&h=300&fit=crop'
   ];
 
   return (
@@ -65,8 +76,8 @@ const About = () => {
             {/* Video Embed */}
             <div className="relative aspect-video bg-gray-900 rounded-lg overflow-hidden shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=800&h=450&fit=crop"
-                alt="DUSC Soccer"
+                src="https://images.unsplash.com/photo-1546519638-68e109498ffc?w=800&h=450&fit=crop"
+                alt="OHS Academy Basketball"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 flex items-center justify-center bg-black/30">
@@ -75,26 +86,27 @@ const About = () => {
                 </div>
               </div>
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
-                <p className="text-white font-semibold">Together | We Are DUSC</p>
+                <p className="text-white font-semibold">Our Team, Our Club, Our Goal</p>
               </div>
             </div>
 
             {/* Content */}
             <div>
               <h1 className="text-5xl md:text-6xl font-black text-white mb-4">
-                WE ARE<br />DUSC
+                WE ARE<br />OHS ACADEMY
               </h1>
               <div className="flex gap-1 mb-6">
                 <div className="w-16 h-1 bg-[#f7941d]" />
                 <div className="w-8 h-1 bg-[#ffd700]" />
               </div>
               <p className="text-gray-300 leading-relaxed">
-                Downtown United Soccer Club (DUSC) is the most comprehensive soccer club in NYC. 
-                Serving approximately 5,000 participants annually in Downtown Manhattan and the 
-                greater NYC area, DUSC offers programs for players of all ages, genders and backgrounds. 
-                Whether starting out in our mini ballers Classes (Beginning at Age 3), or participating 
-                in our highly competitive U23 Men&apos;s or Women&apos;s teams, our professional staff offer 
-                programs for all stages of development and interest.
+                This first episode takes you behind the scenes of Four Men living within the Queens 
+                Village Community, looking to build a home and sports club to aid student athletes 
+                within the community. As former student athletes, park players, and dedicated fans 
+                of the game, we believed we can not only make an impact, but a consistent presence 
+                for the well being of our next generation. Est. post pandemic in 2021, we have hosted 
+                multiple events, participated in local and out of state competitions, and have had 
+                the honor to extend our efforts with different communities within the 5 boroughs.
               </p>
             </div>
           </div>
@@ -104,17 +116,18 @@ const About = () => {
       {/* Club Mission */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#1e3a5f] mb-6">Club Mission</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-[#1e3a5f] mb-6">Academy Mission</h2>
           <div className="flex justify-center gap-1 mb-8">
             <div className="w-12 h-1 bg-[#f7941d]" />
             <div className="w-6 h-1 bg-[#ffd700]" />
           </div>
           <p className="text-gray-600 text-lg leading-relaxed">
-            Downtown United Soccer Club, Inc. is organized as a 501c(3) not for profit entity to educate, 
-            train and inspire youth soccer players of all ages and abilities in a positive, respectful, 
-            supportive environment. To foster a community that reflects the diversity of New York City 
-            in which children can develop a lifelong love for the beautiful game and realize their full 
-            potential as both players and people.
+            OHS Academy Inc. is a Non-profit organization which follows its mission: "Our Team, Our Club, 
+            Our Goal" — an objective towards aiding student athletes of inner city communities and families 
+            from multicultural backgrounds along their academic and athletic endeavors. We prepare our 
+            students to think beyond just being pro athletes but successful professional people. While 
+            the inception was based out of Queens Village, NY, we intend to keep giving back locally and 
+            focus our foundation on teaching and aiding the fundamentals.
           </p>
         </div>
       </section>
@@ -128,7 +141,7 @@ const About = () => {
               <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="h-48 bg-[#1e3a5f] flex items-center justify-center">
                   <img
-                    src={`https://images.unsplash.com/photo-${index === 0 ? '1604651684573-05470013b3b9' : index === 1 ? '1629977007371-0ba395424741' : '1604652716188-e226685e94ca'}?w=400&h=300&fit=crop`}
+                    src={`https://images.unsplash.com/photo-${index === 0 ? '1546519638-68e109498ffc' : index === 1 ? '1574623452334-1e0ac2b3ccb4' : '1571019614242-c5c5dee9f50b'}?w=400&h=300&fit=crop`}
                     alt={item.title}
                     className="w-full h-full object-cover opacity-70"
                   />
@@ -154,7 +167,7 @@ const About = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-[#1e3a5f] text-center mb-4">Core Principles</h2>
           <p className="text-center text-gray-500 italic mb-12">
-            Shared by our Players, Volunteers, Coaching Staff, Administration and Board
+            Shared by our Coaches, Student Athletes, Volunteers, and Families
           </p>
 
           <div className="space-y-10">
@@ -177,11 +190,30 @@ const About = () => {
         </div>
       </section>
 
+      {/* Photo Grid Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#1e3a5f] text-center mb-12">Our Academy in Action</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+            {photoGrid.map((photo, index) => (
+              <div key={index} className="relative aspect-square overflow-hidden rounded-lg shadow-lg group">
+                <img
+                  src={photo}
+                  alt={`OHS Academy moment ${index + 1}`}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors" />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-16 bg-[#1e3a5f]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-6">
-            Ready to Join Our Community?
+            Ready to Join Our Academy?
           </h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -194,7 +226,7 @@ const About = () => {
               to="/staff-board"
               className="inline-flex items-center justify-center gap-2 border-2 border-white text-white hover:bg-white hover:text-[#1e3a5f] font-semibold px-8 py-4 rounded transition-colors"
             >
-              Meet Our Staff
+              Meet Our Coaches
             </Link>
           </div>
         </div>

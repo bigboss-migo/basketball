@@ -22,14 +22,14 @@ const Camps = () => {
             Camps
           </h1>
           <p className="text-lg text-gray-300 max-w-3xl">
-            Join us for a soccer camp experience full of fun, fitness and friendship. Choose from 
-            full-day, half-day, advanced and residential camp options for kids & teens from 3-16 years old.
+            Join us for a sports camp experience full of fun, fitness and friendship. Our camps 
+            offer intensive training in Basketball, Soccer, and Track & Field for boys and girls 
+            ages 4-17.
           </p>
           <p className="text-gray-300 mt-4 max-w-3xl">
-            DUSC Camps have a reputation of being some of the best soccer camps in NYC. With over 25+ years 
-            of experience, our staff facilitate a love for the game through a combination of skill work and 
-            ball mastery, coordination and movement activities and small sided games in a positive and 
-            supportive environment.
+            OHS Academy camps provide student athletes with quality instruction from our experienced 
+            coaching staff. We facilitate a love for sports through a combination of skill work, 
+            conditioning, and game situations in a positive and supportive environment.
           </p>
           <div className="flex gap-1 mt-6">
             <div className="w-16 h-1 bg-[#f7941d]" />
@@ -52,10 +52,10 @@ const Camps = () => {
         </div>
       </section>
 
-      {/* All Soccer Camps */}
+      {/* All Sports Camps */}
       <section id="camps" className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-[#1e3a5f] text-center mb-12">All Soccer Camps</h2>
+          <h2 className="text-3xl font-bold text-[#1e3a5f] text-center mb-12">All Sports Camps</h2>
 
           <div className="space-y-12">
             {camps.map((camp, index) => (
@@ -111,7 +111,7 @@ const Camps = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-6">Camp Registrations</h2>
           <p className="text-gray-300 mb-8">
-            Ready to join us for an unforgettable soccer experience? Register now to secure your spot!
+            Ready to join us for an unforgettable sports experience? Register now to secure your spot!
           </p>
           <Link
             to="/register"
@@ -126,9 +126,10 @@ const Camps = () => {
       <section className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <blockquote className="text-xl md:text-2xl text-[#1e3a5f] italic mb-4">
-            &ldquo;A player can only achieve his maximum when he is enjoying himself.&rdquo;
+            &ldquo;We believed we can not only make an impact, but a consistent presence 
+            for the well being of our next generation.&rdquo;
           </blockquote>
-          <cite className="text-gray-600">— Johan Cruyff, Barcelona, Ajax and Holland</cite>
+          <cite className="text-gray-600">— OHS Academy Founders</cite>
         </div>
       </section>
     </div>

@@ -13,74 +13,78 @@ import {
 const Classes = () => {
   const classOfferings = [
     {
-      title: 'Mini Ballers (Ages 3-5)',
-      description: 'This coed program is designed to teach fundamental soccer skills in a positive environment with the use of creative and fun-based games. We want players to become skilled in possessing the ball, while working on their balancing skills and coordination. We will help your little one build confidence, leadership and social skills while emphasizing teamwork!',
-      image: 'https://images.pexels.com/photos/8941650/pexels-photo-8941650.jpeg?w=400&h=300&fit=crop'
+      title: 'Beginner Classes (Ages 4-8)',
+      description: 'This coed program is designed to teach fundamental sports skills in a positive environment with the use of creative and fun-based games. We want players to become skilled in the basics while working on their coordination and athletic development. We will help your young athlete build confidence, leadership and social skills while emphasizing teamwork!',
+      image: 'https://images.unsplash.com/photo-1574623452334-1e0ac2b3ccb4?w=400&h=300&fit=crop'
     },
     {
-      title: 'General Classes (Ages 5-14)',
-      description: 'General classes focus on fundamental skills and fun, while building a foundation of technical proficiency for future growth in the game. Topics include: dribbling, passing, receiving, shooting and creativity.',
-      details: ['Dynamic warm up', 'Juggling/ball mastery', 'Topic of the week', 'Small sided games'],
-      image: 'https://images.unsplash.com/photo-1604651684573-05470013b3b9?w=400&h=300&fit=crop'
+      title: 'Intermediate Classes (Ages 8-13)',
+      description: 'Intermediate classes focus on building upon fundamental skills while introducing more advanced techniques. Topics include: ball handling, shooting form, defensive positioning, and game strategy.',
+      details: ['Dynamic warm up', 'Skill development drills', 'Topic of the week', 'Scrimmages and game situations'],
+      image: 'https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&h=300&fit=crop'
     },
     {
-      title: 'Specialized Classes (Ages 7-14)',
-      description: 'These classes focus on individual player development, with more depth in certain aspects of the game.',
+      title: 'Advanced Classes (Ages 13-17)',
+      description: 'These classes focus on advanced player development, preparing student athletes for competitive play and beyond.',
       specializations: [
-        { name: 'Goalkeeping', desc: 'Focus on the technical aspects of today\'s modern goalkeeper. Topics include: handling, positioning, reactions, footwork, hand-eye coordination, confidence.' },
-        { name: 'Footworx', desc: 'Players will learn how to be comfortable on the ball, create more time + options. Topics include: footwork, creativity, body positioning, first touch, vision.' },
-        { name: 'Strikers', desc: 'This is all about scoring goals! Players will learn shooting techniques, 1st touch, volleys, movement, body position, support play and more.' }
+        { name: 'Basketball Training', desc: 'Advanced ball handling, shooting techniques, court vision, and competitive game preparation.' },
+        { name: 'Soccer Training', desc: 'Technical skills, tactical awareness, positioning, and match preparation.' },
+        { name: 'Track & Field', desc: 'Speed development, endurance training, proper form and technique for various events.' }
       ],
-      image: 'https://images.unsplash.com/photo-1629977007371-0ba395424741?w=400&h=300&fit=crop'
+      image: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&h=300&fit=crop'
     },
     {
-      title: 'Squads',
-      description: 'Create your own class with Squads! Squads offers your child the chance to play, learn and develop with a consistent group of neighbors, classmates, friends, or teammates throughout the week.',
+      title: 'Private 1-on-1 Training',
+      description: 'Personalized training sessions tailored to your athlete\'s specific needs and goals. Work directly with our experienced coaches for focused skill development.',
       details: [
-        'Level: Beginner to Advanced',
-        'Minimum Squad Number: 4 Players',
-        'Minimum of 5 Classes per Squad Booking',
-        '4 Player Squads: $55 Class per Player',
-        '5-8 Player Squads: $45 Class per Player'
+        'Level: All skill levels welcome',
+        'Duration: 90 minute sessions',
+        'Price: $55 per student per session',
+        'Customized training plan',
+        'Flexible scheduling available'
       ],
-      image: 'https://images.unsplash.com/photo-1604652716188-e226685e94ca?w=400&h=300&fit=crop'
+      image: 'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=400&h=300&fit=crop'
     }
   ];
 
   const faqs = [
     {
       question: 'Who are Classes suitable for?',
-      answer: 'Classes are suitable for beginner, intermediate and advanced level for both co-ed and girls only classes with birth years 2000–15. We offer advanced classes with more depth in certain areas.'
+      answer: 'Classes are suitable for beginner, intermediate and advanced levels for both boys and girls ages 4-17. We offer programs in Basketball, Soccer, and Track & Field.'
     },
     {
-      question: 'Is previous soccer experience required?',
-      answer: 'No. Our classes are designed to cater for all levels of experience. Players may be split up based on ability.'
+      question: 'Is previous sports experience required?',
+      answer: 'No. Our classes are designed to cater for all levels of experience. Players may be grouped based on ability and age.'
     },
     {
-      question: 'What topics will be covered?',
-      answer: 'Our professional coaching staff will follow a 10 week curriculum, including; dribbling, passing, receiving, shooting and creativity.'
+      question: 'What sports do you offer?',
+      answer: 'We offer Basketball (with 4 annual group sessions: Fall/Winter/Spring/Summer AAU), Soccer, and Track & Field training.'
     },
     {
-      question: 'Do you offer girls-only classes?',
-      answer: 'Yes. We offer both coed and girls-only sessions.'
+      question: 'What is the cost for group training?',
+      answer: 'Group Training Sessions are $45 per student for a 12-week program.'
     },
     {
-      question: 'How long does each session last?',
-      answer: 'Classes are 55 minutes.'
+      question: 'Do you offer private training?',
+      answer: 'Yes! Private 1-on-1 Training is available at $55 per student for 90-minute sessions.'
     },
     {
-      question: 'How many players are in each group?',
-      answer: 'We aim to have a ratio of 1 coach to 10 players. For our youngest classes, ratios may be lower for more individual attention as necessary.'
+      question: 'How do I contact the academy?',
+      answer: 'You can reach us by phone at 848-900-3361 (Coach Jon) or email at Ourhousesportstraining@gmail.com.'
     },
     {
-      question: 'What equipment do I need?',
-      answer: 'Players should bring a ball, water and shin guards. DUSC will provide each player with a T-Shirt that they should wear every week to class.'
+      question: 'Where are you located?',
+      answer: 'OHS Academy Inc. is based out of Queens Village, NY. We serve the local community and the greater 5 boroughs area.'
     }
   ];
 
-  const sponsors = [
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Chobani_2017.svg/400px-Chobani_2017.svg.png',
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Northwell_Health_logo.svg/400px-Northwell_Health_logo.svg.png'
+  const photoGrid = [
+    'https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&h=300&fit=crop',
+    'https://images.unsplash.com/photo-1574623452334-1e0ac2b3ccb4?w=400&h=300&fit=crop',
+    'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&h=300&fit=crop',
+    'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=400&h=300&fit=crop',
+    'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=400&h=300&fit=crop',
+    'https://images.unsplash.com/photo-1461896836934-fffcfc86e544?w=400&h=300&fit=crop'
   ];
 
   return (
@@ -100,13 +104,14 @@ const Classes = () => {
             Classes
           </h1>
           <p className="text-lg text-gray-300 max-w-3xl">
-            Are you just starting out and want to learn new skills? Are you a seasoned player 
-            looking for repetition and refining one&apos;s skills? Good news! For both types of players, 
-            Classes are a great way to participate at DUSC.
+            Are you just starting out and want to learn new skills? Are you a seasoned athlete 
+            looking for repetition and refining your skills? Good news! For both types of athletes, 
+            our Classes are a great way to participate at OHS Academy.
           </p>
           <p className="text-gray-300 mt-4 max-w-3xl">
-            Classes are designed to improve a player&apos;s fundamental soccer skills in a small group 
-            environment. All classes are taught by our professional coaching staff teaching the &ldquo;DUSC Way&rdquo;.
+            Classes are designed to improve a player&apos;s fundamental sports skills in a small group 
+            environment. All classes are taught by our experienced coaching staff with decades of 
+            community involvement.
           </p>
           <div className="flex gap-1 mt-6">
             <div className="w-16 h-1 bg-[#f7941d]" />
@@ -125,7 +130,7 @@ const Classes = () => {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-[#1e3a5f] text-center mb-4">Offerings</h2>
-          <p className="text-center text-gray-600 mb-12">Select your skill level below to read more about our Classes offerings for this season!</p>
+          <p className="text-center text-gray-600 mb-12">Select your skill level below to read more about our class offerings!</p>
 
           <div className="grid md:grid-cols-2 gap-8">
             {classOfferings.map((offering, index) => (
@@ -134,8 +139,8 @@ const Classes = () => {
                   <div className="w-16 h-16 rounded-full bg-[#1e3a5f] flex items-center justify-center flex-shrink-0">
                     <svg viewBox="0 0 100 100" className="w-12 h-12">
                       <circle cx="50" cy="50" r="48" fill="#1e3a5f" stroke="#f7941d" strokeWidth="2"/>
-                      <text x="50" y="38" textAnchor="middle" fill="white" fontSize="12" fontWeight="bold">DUSC</text>
-                      <text x="50" y="55" textAnchor="middle" fill="white" fontSize="9">NYC</text>
+                      <text x="50" y="38" textAnchor="middle" fill="white" fontSize="12" fontWeight="bold">OHS</text>
+                      <text x="50" y="55" textAnchor="middle" fill="white" fontSize="9">ACADEMY</text>
                     </svg>
                   </div>
                   <h3 className="text-xl font-bold text-[#1e3a5f]">{offering.title}</h3>
@@ -215,18 +220,20 @@ const Classes = () => {
         </div>
       </section>
 
-      {/* Sponsors */}
-      <section className="py-12 bg-white">
+      {/* Photo Grid Section */}
+      <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-[#1e3a5f] text-center mb-8">Sponsors</h2>
-          <div className="flex flex-wrap justify-center items-center gap-12">
-            {sponsors.map((sponsor, index) => (
-              <img
-                key={index}
-                src={sponsor}
-                alt="Sponsor"
-                className="h-12 object-contain grayscale hover:grayscale-0 transition-all"
-              />
+          <h2 className="text-3xl font-bold text-[#1e3a5f] text-center mb-12">Training in Action</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+            {photoGrid.map((photo, index) => (
+              <div key={index} className="relative aspect-square overflow-hidden rounded-lg shadow-lg group">
+                <img
+                  src={photo}
+                  alt={`OHS Academy training ${index + 1}`}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors" />
+              </div>
             ))}
           </div>
         </div>
@@ -236,7 +243,7 @@ const Classes = () => {
       <section id="faqs" className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-[#1e3a5f] text-center mb-4">FAQs</h2>
-          <p className="text-center text-gray-500 italic mb-8">Shared by our Players, Volunteers, Coaching Staff, Administration and Board</p>
+          <p className="text-center text-gray-500 italic mb-8">Common questions about our programs</p>
 
           <Accordion type="single" collapsible className="space-y-4">
             {faqs.map((faq, index) => (

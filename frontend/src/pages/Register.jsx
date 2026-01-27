@@ -45,7 +45,6 @@ const Register = () => {
 
   const ageOptions = [
     { value: 'all', label: 'All Ages' },
-    { value: '3', label: '3 years' },
     { value: '4', label: '4 years' },
     { value: '5', label: '5 years' },
     { value: '6', label: '6 years' },
@@ -57,6 +56,9 @@ const Register = () => {
     { value: '12', label: '12 years' },
     { value: '13', label: '13 years' },
     { value: '14', label: '14 years' },
+    { value: '15', label: '15 years' },
+    { value: '16', label: '16 years' },
+    { value: '17', label: '17 years' },
   ];
 
   const genderOptions = [
@@ -93,9 +95,9 @@ const Register = () => {
             All Registrations
           </h1>
           <p className="text-lg text-gray-300 max-w-3xl">
-            Downtown United Soccer Club, Inc. is organized as a 501c(3) not for profit entity to educate, 
-            train and inspire youth soccer players of all ages and abilities in a positive, respectful, 
-            supportive environment.
+            OHS Academy Inc. is a Non-profit organization with the mission "Our Team, Our Club, Our Goal" — 
+            an objective towards aiding student athletes of inner city communities and families from 
+            multicultural backgrounds along their academic and athletic endeavors.
           </p>
           <div className="flex gap-1 mt-6">
             <div className="w-16 h-1 bg-[#f7941d]" />
@@ -246,10 +248,10 @@ const Register = () => {
       <section className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <blockquote className="text-xl md:text-2xl text-[#1e3a5f] italic mb-4">
-            &ldquo;A good coach is one who helps his players maximize or discover their potential. 
-            That is his principal function.&rdquo;
+            &ldquo;We believed we can not only make an impact, but a consistent presence 
+            for the well being of our next generation.&rdquo;
           </blockquote>
-          <cite className="text-gray-600">— Marcelo Bielsa, Argentina and Chile coach</cite>
+          <cite className="text-gray-600">— OHS Academy Founders</cite>
         </div>
       </section>
     </div>

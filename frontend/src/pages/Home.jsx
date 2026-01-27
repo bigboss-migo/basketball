@@ -10,8 +10,8 @@ const Home = () => {
       <section className="relative h-[80vh] min-h-[600px] overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1604651684573-05470013b3b9?w=1920&h=1080&fit=crop"
-            alt="Soccer team celebration"
+            src="https://images.unsplash.com/photo-1546519638-68e109498ffc?w=1920&h=1080&fit=crop"
+            alt="Basketball team training"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-transparent" />
@@ -21,10 +21,10 @@ const Home = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div className="max-w-xl">
               <h1 className="text-6xl md:text-7xl lg:text-8xl font-black text-white mb-2 tracking-tight">
-                DUSC
+                OHS ACADEMY
               </h1>
               <p className="text-lg md:text-xl text-gray-200 mb-4">
-                EST. 1982 - NYC
+                EST. 2021 - QUEENS VILLAGE, NY
               </p>
               {/* Orange/Yellow underline accent */}
               <div className="flex gap-1 mb-8">
@@ -76,27 +76,28 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-[#1e3a5f] mb-6">
-              the most comprehensive soccer club in NYC.
+              Our Team, Our Club, Our Goal
             </h2>
             <p className="text-gray-600 leading-relaxed mb-8">
-              Downtown United Soccer Club, Inc. is organized as a 501c(3) not for profit entity to educate, 
-              train and inspire youth soccer players of all ages and abilities in a positive, respectful, 
-              supportive environment. To foster a community that reflects the diversity of New York City 
-              in which children can develop a lifelong love for the beautiful game and realize their full 
-              potential as both players and people.
+              OHS Academy Inc. is a Non-profit organization with an objective towards aiding student 
+              athletes of inner city communities and families from multicultural backgrounds along 
+              their academic and athletic endeavors. We prepare our students to think beyond just 
+              being pro athletes but successful professional people. Based out of Queens Village, NY, 
+              we intend to keep giving back locally and focus our foundation on teaching and aiding 
+              the fundamentals.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 to="/about"
                 className="inline-flex items-center justify-center gap-2 bg-[#1e3a5f] hover:bg-[#2d4a6f] text-white font-semibold px-6 py-3 rounded transition-colors"
               >
-                About Our Club
+                About Our Academy
               </Link>
               <Link
                 to="/staff-board"
                 className="inline-flex items-center justify-center gap-2 border-2 border-[#1e3a5f] text-[#1e3a5f] hover:bg-[#1e3a5f] hover:text-white font-semibold px-6 py-3 rounded transition-colors"
               >
-                Our Dedicated Staff
+                Meet Our Coaches
               </Link>
             </div>
           </div>
@@ -107,7 +108,7 @@ const Home = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center mb-10">
-            <h2 className="text-3xl font-bold text-[#1e3a5f]">Club News</h2>
+            <h2 className="text-3xl font-bold text-[#1e3a5f]">Academy News</h2>
             <Link
               to="#"
               className="text-[#f7941d] hover:text-[#e8850f] font-semibold flex items-center gap-1"
@@ -144,12 +145,11 @@ const Home = () => {
                 Find A Program
               </h2>
               <p className="text-gray-300 leading-relaxed mb-8">
-                Downtown United Soccer Club (DUSC) is the most comprehensive soccer club in NYC. 
-                Serving approximately 5,000 participants annually in Downtown Manhattan and the 
-                greater NYC area, DUSC offers programs for players of all ages, genders and backgrounds. 
-                Whether starting out in our mini ballers Classes (Beginning at Age 3), or participating 
-                in our highly competitive U23 Men&apos;s or Women&apos;s teams, our professional staff offer 
-                programs for all stages of development and interest.
+                OHS Academy Inc. offers beginner, intermediate, and advanced sports learning classes 
+                for boys and girls ages 4-17. Our sports categories include Basketball with 4 annual 
+                group sessions (Fall/Winter/Spring/Summer AAU), Soccer, and Track & Field. Whether 
+                you're looking for group training sessions or private 1-on-1 training, our dedicated 
+                coaching staff provides quality instruction for all stages of development.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
@@ -162,14 +162,14 @@ const Home = () => {
                   to="/about"
                   className="inline-flex items-center justify-center gap-2 border-2 border-white text-white hover:bg-white hover:text-[#1e3a5f] font-semibold px-6 py-3 rounded transition-colors"
                 >
-                  Contact DUSC
+                  Contact OHS Academy
                 </Link>
               </div>
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1629977007371-0ba395424741?w=600&h=400&fit=crop"
-                alt="Soccer player"
+                src="https://images.unsplash.com/photo-1574623452334-1e0ac2b3ccb4?w=600&h=400&fit=crop"
+                alt="Youth basketball training"
                 className="rounded-lg shadow-xl"
               />
             </div>
@@ -181,10 +181,10 @@ const Home = () => {
       <section className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <blockquote className="text-xl md:text-2xl text-[#1e3a5f] italic mb-4">
-            &ldquo;A good coach is one who helps his players maximize or discover their potential. 
-            That is his principal function.&rdquo;
+            &ldquo;We believed we can not only make an impact, but a consistent presence 
+            for the well being of our next generation.&rdquo;
           </blockquote>
-          <cite className="text-gray-600">— Marcelo Bielsa, Argentina and Chile coach</cite>
+          <cite className="text-gray-600">— OHS Academy Founders</cite>
         </div>
       </section>
     </div>
