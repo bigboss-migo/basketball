@@ -13,7 +13,7 @@ const Header = () => {
       path: '/about',
       dropdown: [
         { label: 'About Us', path: '/about' },
-        { label: 'Staff + Board', path: '/staff-board' }
+        { label: 'Staff + Team', path: '/staff-board' }
       ]
     },
     {
