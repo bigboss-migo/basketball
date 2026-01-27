@@ -10,21 +10,20 @@ const Footer = () => {
           {/* Logo & About */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center">
-                <svg viewBox="0 0 100 100" className="w-10 h-10">
-                  <circle cx="50" cy="50" r="48" fill="#1e3a5f" stroke="#f7941d" strokeWidth="2"/>
-                  <text x="50" y="38" textAnchor="middle" fill="white" fontSize="14" fontWeight="bold">DUSC</text>
-                  <text x="50" y="55" textAnchor="middle" fill="white" fontSize="10">NYC</text>
-                  <text x="50" y="70" textAnchor="middle" fill="#f7941d" fontSize="8">EST. 1982</text>
-                </svg>
+              <div className="w-12 h-12 rounded-full overflow-hidden">
+                <img 
+                  src="https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/c0a60adf-7f95-4898-1495-907e67bd9700/public" 
+                  alt="OHS Academy Logo"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div>
-                <h3 className="font-bold text-sm">DOWNTOWN UNITED</h3>
-                <h4 className="font-bold text-sm text-[#f7941d]">SOCCER CLUB</h4>
+                <h3 className="font-bold text-sm">OUR HOUSE</h3>
+                <h4 className="font-bold text-sm text-[#f7941d]">SPORTS</h4>
               </div>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
-              The most comprehensive soccer club in NYC, serving approximately 5,000 participants annually.
+              A Non-profit organization aiding student athletes of inner city communities along their academic and athletic endeavors.
             </p>
           </div>
 
@@ -46,15 +45,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-sm text-gray-300">
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0 text-[#f7941d]" />
-                <span>Pier 40, 353 West Street<br />New York, NY 10014</span>
+                <span>Queens Village, NY</span>
               </li>
               <li className="flex items-center gap-2 text-sm text-gray-300">
                 <Phone className="w-4 h-4 flex-shrink-0 text-[#f7941d]" />
-                <span>(212) 967-3872</span>
+                <span>848-900-3361 (Coach Jon)</span>
               </li>
               <li className="flex items-center gap-2 text-sm text-gray-300">
                 <Mail className="w-4 h-4 flex-shrink-0 text-[#f7941d]" />
-                <span>info@dusc.net</span>
+                <span>Ourhousesportstraining@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -69,7 +68,7 @@ const Footer = () => {
               <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#f7941d] transition-colors">
                 <Twitter className="w-5 h-5" />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#f7941d] transition-colors">
+              <a href="https://www.instagram.com/p/DQtngTOkYR_/?img_index=1" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#f7941d] transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
               <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#f7941d] transition-colors">
@@ -82,7 +81,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-10 pt-6 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-400">
-            © {new Date().getFullYear()} Downtown United Soccer Club. All rights reserved.
+            © {new Date().getFullYear()} OHS Academy Inc. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-gray-400">
             <a href="#" className="hover:text-[#f7941d] transition-colors">Privacy Policy</a>
