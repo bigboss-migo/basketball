@@ -4,7 +4,7 @@ export const programs = [
   {
     id: 1,
     title: "Basketball",
-    image: "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=600&h=400&fit=crop",
+    image: "https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/27762157-f392-47ba-bcd4-89b7b270e900/public",
     link: "/classes"
   },
   {
