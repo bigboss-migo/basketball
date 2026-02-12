@@ -22,7 +22,7 @@ export const programs = [
   {
     id: 4,
     title: "Camps",
-    image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&h=400&fit=crop",
+    image: "https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/aa731c3a-1aea-492e-d011-5ef018a63f00/public",
     link: "/camps"
   }
 ];
