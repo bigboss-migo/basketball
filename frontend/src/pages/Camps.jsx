@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import PageHero from '@/components/ui/PageHero';
+import XsAndOsPattern from '@/components/ui/XsAndOsPattern';
 import { camps } from '@/data/mockData';
 import { MapPin, Users, DollarSign, Calendar } from 'lucide-react';
 
@@ -9,14 +10,7 @@ const Camps = () => {
     <div>
       {/* Hero Section */}
       <section className="relative bg-[#1e3a5f] overflow-hidden">
-        <div className="absolute inset-0">
-          <div 
-            className="absolute right-0 top-0 w-3/4 h-full opacity-20"
-            style={{
-              background: 'repeating-linear-gradient(-45deg, transparent, transparent 20px, rgba(255,255,255,0.1) 20px, rgba(255,255,255,0.1) 40px)'
-            }}
-          />
-        </div>
+        <XsAndOsPattern />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
             Camps

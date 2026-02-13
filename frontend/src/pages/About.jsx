@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Play } from 'lucide-react';
 import PageHero from '@/components/ui/PageHero';
+import XsAndOsPattern from '@/components/ui/XsAndOsPattern';
 
 const About = () => {
   const visionItems = [
@@ -49,12 +50,12 @@ const About = () => {
   ];
 
   const photoGrid = [
-    'https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&h=300&fit=crop',
-    'https://images.unsplash.com/photo-1574623452334-1e0ac2b3ccb4?w=400&h=300&fit=crop',
-    'https://images.unsplash.com/photo-1461896836934- voices-at-a-crossroad?w=400&h=300&fit=crop',
-    'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&h=300&fit=crop',
-    'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=400&h=300&fit=crop',
-    'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=400&h=300&fit=crop'
+    'https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/c020b5cd-306d-47f1-1915-d73cc8e96a00/public',
+    'https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/ade055bd-2dc0-43af-05ea-31945734d300/public',
+    'https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/9d007dad-c9af-40b1-3a92-63e5a75cbc00/public',
+    'https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/99f642b6-8ae9-4cb8-ef84-876e78d73400/public',
+    'https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/243cd5c6-0a7c-4bab-eb94-b2f89319f800/public',
+    'https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/e61243a7-b83b-4f1b-87cd-f03347c24500/public'
   ];
 
   return (
@@ -62,14 +63,7 @@ const About = () => {
       {/* Hero Section with Video */}
       <section className="relative bg-[#1e3a5f] overflow-hidden">
         {/* Diagonal Pattern */}
-        <div className="absolute inset-0">
-          <div 
-            className="absolute right-0 top-0 w-3/4 h-full opacity-20"
-            style={{
-              background: 'repeating-linear-gradient(-45deg, transparent, transparent 20px, rgba(255,255,255,0.1) 20px, rgba(255,255,255,0.1) 40px)'
-            }}
-          />
-        </div>
+        <XsAndOsPattern />
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
