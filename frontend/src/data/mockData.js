@@ -362,41 +362,33 @@ export const sponsors = {
   ]
 };
 
+// ── NEWS ─────────────────────────────────────────────────────────────────────
+// Only the three active articles are listed here.
+// "Community Event Recap", "Coach Spotlight: Coach Wells", and
+// "Summer Camp 2025 Preview" have been removed.
 export const news = [
   {
     id: 1,
     title: "OHS Academy Spring Registration Open",
-    excerpt: "Register now for our Spring 2025 programs in Basketball, Soccer, and Track & Field.",
-    date: "2025-01-15"
+    excerpt:
+      "Registration is now live for our Spring 2026 programs in Basketball, Soccer, and Track & Field. Spots fill fast — secure your athlete's place today.",
+    date: "2026-02-20",
+    slug: "/blog/spring-registration"
   },
   {
     id: 2,
     title: "AAU Season Announcement",
-    excerpt: "Exciting news about our upcoming AAU basketball season and tryout dates.",
-    date: "2025-01-10"
+    excerpt:
+      "OHS Academy is officially entering the 2026 AAU season. Learn about tryout dates, age divisions, tournament schedules, and what it takes to compete.",
+    date: "2026-02-15",
+    slug: "/blog/aau-season-announcement"
   },
   {
     id: 3,
-    title: "Community Event Recap",
-    excerpt: "Thank you to everyone who participated in our recent community sports day!",
-    date: "2025-01-05"
-  },
-  {
-    id: 4,
-    title: "Coach Spotlight: Coach Wells",
-    excerpt: "Celebrating 3+ decades of dedication to Queens Village youth athletics.",
-    date: "2024-12-20"
-  },
-  {
-    id: 5,
-    title: "Summer Camp 2025 Preview",
-    excerpt: "Get ready for another amazing summer of sports, fun, and growth!",
-    date: "2024-12-15"
-  },
-  {
-    id: 6,
     title: "Student Athlete Achievements",
-    excerpt: "Celebrating our student athletes' accomplishments on and off the court.",
-    date: "2024-12-01"
+    excerpt:
+      "Celebrating our student athletes who are excelling on the court, on the track, and in the classroom. Their dedication is what OHS is all about.",
+    date: "2026-02-01",
+    slug: "/blog/student-athlete-achievements"
   }
 ];
