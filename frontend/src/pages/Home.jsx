@@ -26,7 +26,6 @@ const Home = () => {
               <p className="text-lg md:text-xl text-gray-200 mb-4">
                 OUR HOUSE SPORTS ACADEMY - EST QUEENS, NY
               </p>
-              {/* Orange/Yellow underline accent */}
               <div className="flex gap-1 mb-8">
                 <div className="w-16 h-1 bg-[#f7941d]" />
                 <div className="w-8 h-1 bg-[#ffd700]" />
@@ -79,11 +78,11 @@ const Home = () => {
               Our Team, Our Club, Our Goal
             </h2>
             <p className="text-gray-600 leading-relaxed mb-8">
-              OHS Academy Inc. is a Non-profit organization with an objective towards aiding student 
-              athletes of inner city communities and families from multicultural backgrounds along 
-              their academic and athletic endeavors. We prepare our students to think beyond just 
-              being pro athletes but successful professional people. Based out of Queens Village, NY, 
-              we intend to keep giving back locally and focus our foundation on teaching and aiding 
+              OHS Academy Inc. is a Non-profit organization with an objective towards aiding student
+              athletes of inner city communities and families from multicultural backgrounds along
+              their academic and athletic endeavors. We prepare our students to think beyond just
+              being pro athletes but successful professional people. Based out of Queens Village, NY,
+              we intend to keep giving back locally and focus our foundation on teaching and aiding
               the fundamentals.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -110,19 +109,27 @@ const Home = () => {
           <div className="flex justify-between items-center mb-10">
             <h2 className="text-3xl font-bold text-[#1e3a5f]">Academy News</h2>
             <Link
-              to="#"
+              to="/blog"
               className="text-[#f7941d] hover:text-[#e8850f] font-semibold flex items-center gap-1"
             >
-              see more news <ArrowRight className="w-4 h-4" />
+              See All Articles <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {news.slice(0, 6).map((item) => (
-              <div
+            {news.map((item) => (
+              <Link
                 key={item.id}
-                className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow group cursor-pointer"
+                to={item.slug}
+                className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow group"
               >
+                <span className="text-xs text-gray-400 uppercase tracking-wide font-medium mb-2 block">
+                  {new Date(item.date).toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                  })}
+                </span>
                 <h4 className="text-lg font-bold text-[#1e3a5f] mb-2 group-hover:text-[#f7941d] transition-colors">
                   {item.title}
                 </h4>
@@ -130,7 +137,7 @@ const Home = () => {
                 <span className="text-[#f7941d] text-sm font-semibold flex items-center gap-1">
                   Read More <ArrowRight className="w-3 h-3" />
                 </span>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
@@ -145,10 +152,10 @@ const Home = () => {
                 Find A Program
               </h2>
               <p className="text-gray-300 leading-relaxed mb-8">
-                OHS Academy Inc. offers beginner, intermediate, and advanced sports learning classes 
-                for boys and girls ages 4-17. Our sports categories include Basketball with 4 annual 
-                group sessions (Fall/Winter/Spring/Summer AAU), Soccer, and Track & Field. Whether 
-                you're looking for group training sessions or private 1-on-1 training, our dedicated 
+                OHS Academy Inc. offers beginner, intermediate, and advanced sports learning classes
+                for boys and girls ages 4-17. Our sports categories include Basketball with 4 annual
+                group sessions (Fall/Winter/Spring/Summer AAU), Soccer, and Track & Field. Whether
+                you&rsquo;re looking for group training sessions or private 1-on-1 training, our dedicated
                 coaching staff provides quality instruction for all stages of development.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -181,8 +188,8 @@ const Home = () => {
       <section className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <blockquote className="text-xl md:text-2xl text-[#1e3a5f] italic mb-4">
-            &ldquo;We’re not just focused on building professional athletes,
-were focused on building professional people.&rdquo;
+            &ldquo;We&rsquo;re not just focused on building professional athletes,
+            we&rsquo;re focused on building professional people.&rdquo;
           </blockquote>
           <cite className="text-gray-600">— Coach Jon O.</cite>
         </div>
