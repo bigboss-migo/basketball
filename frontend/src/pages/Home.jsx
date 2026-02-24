@@ -21,10 +21,10 @@ const Home = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div className="max-w-xl">
               <h1 className="text-6xl md:text-7xl lg:text-8xl font-black text-white mb-2 tracking-tight">
-                OHS ACADEMY
+                OHS ACADEMY Inc.
               </h1>
               <p className="text-lg md:text-xl text-gray-200 mb-4">
-                EST. 2021 - QUEENS VILLAGE, NY
+                OUR HOUSE SPORTS ACADEMY - EST QUEENS, NY
               </p>
               {/* Orange/Yellow underline accent */}
               <div className="flex gap-1 mb-8">
@@ -181,10 +181,10 @@ const Home = () => {
       <section className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <blockquote className="text-xl md:text-2xl text-[#1e3a5f] italic mb-4">
-            &ldquo;We believed we can not only make an impact, but a consistent presence 
-            for the well being of our next generation.&rdquo;
+            &ldquo;We’re not just focused on building professional athletes,
+were focused on building professional people.&rdquo;
           </blockquote>
-          <cite className="text-gray-600">— OHS Academy Founders</cite>
+          <cite className="text-gray-600">— Coach Jon O.</cite>
         </div>
       </section>
     </div>
