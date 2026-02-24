@@ -31,7 +31,7 @@ export const staffMembers = {
   directors: [
     {
       id: 1,
-      name: "Coach Dre",
+      name: "Coach Jon",
       role: "The Ref, The Coach, The Teacher",
       image: "https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/ad7874bd-5dbb-4830-a09c-07af08cd5000/public",
       bio: "Coach Dre has been a referee working in the community for over two decades. He oversaw the CYO Program in SSJA and provided kids with ample opportunities."
@@ -103,7 +103,7 @@ export const classes = [
     ageRange: "4-8",
     gender: "coed",
     description: "Introduction to basketball fundamentals including dribbling, passing, and shooting in a fun, supportive environment.",
-    price: "$45",
+    price: "$55",
     schedule: "Saturdays 9:00 AM - 10:00 AM",
     location: "Queens Village, NY"
   },
@@ -113,7 +113,7 @@ export const classes = [
     ageRange: "8-13",
     gender: "coed",
     description: "Building on fundamentals with advanced ball handling, defensive positioning, and game strategy.",
-    price: "$45",
+    price: "$55",
     schedule: "Saturdays 10:00 AM - 11:00 AM",
     location: "Queens Village, NY"
   },
@@ -123,7 +123,7 @@ export const classes = [
     ageRange: "13-17",
     gender: "coed",
     description: "Competitive-level training for serious athletes preparing for high school and AAU competition.",
-    price: "$45",
+    price: "$55",
     schedule: "Saturdays 11:00 AM - 12:00 PM",
     location: "Queens Village, NY"
   },
@@ -133,7 +133,7 @@ export const classes = [
     ageRange: "4-17",
     gender: "coed",
     description: "Comprehensive soccer training covering technical skills, tactical awareness, and game preparation.",
-    price: "$45",
+    price: "$55",
     schedule: "Sundays 10:00 AM - 11:00 AM",
     location: "Queens Village, NY"
   },
@@ -143,7 +143,7 @@ export const classes = [
     ageRange: "8-17",
     gender: "girls",
     description: "Girls-focused basketball training emphasizing skill development, teamwork, and confidence building.",
-    price: "$45",
+    price: "$55",
     schedule: "Sundays 11:00 AM - 12:00 PM",
     location: "Queens Village, NY"
   },
@@ -153,7 +153,7 @@ export const classes = [
     ageRange: "8-17",
     gender: "coed",
     description: "Speed development, endurance training, and proper form and technique for various track events.",
-    price: "$45",
+    price: "$55",
     schedule: "Sundays 1:00 PM - 2:00 PM",
     location: "Queens Village, NY"
   },
@@ -163,7 +163,7 @@ export const classes = [
     ageRange: "4-17",
     gender: "coed",
     description: "Personalized training sessions tailored to your athlete's specific needs and goals. 90-minute sessions.",
-    price: "$55",
+    price: "$65",
     schedule: "Flexible Scheduling",
     location: "Queens Village, NY"
   }
@@ -219,7 +219,7 @@ export const registrationPrograms = [
     type: "class",
     ageRange: "4-8",
     gender: "coed",
-    price: "$45",
+    price: "$55",
     dates: "12-Week Session",
     spotsLeft: 10
   },
@@ -229,7 +229,7 @@ export const registrationPrograms = [
     type: "class",
     ageRange: "8-13",
     gender: "coed",
-    price: "$45",
+    price: "$55",
     dates: "12-Week Session",
     spotsLeft: 8
   },
@@ -239,7 +239,7 @@ export const registrationPrograms = [
     type: "class",
     ageRange: "13-17",
     gender: "coed",
-    price: "$45",
+    price: "$55",
     dates: "12-Week Session",
     spotsLeft: 6
   },
@@ -249,7 +249,7 @@ export const registrationPrograms = [
     type: "class",
     ageRange: "4-17",
     gender: "coed",
-    price: "$45",
+    price: "$55",
     dates: "12-Week Session",
     spotsLeft: 12
   },
@@ -259,7 +259,7 @@ export const registrationPrograms = [
     type: "class",
     ageRange: "8-17",
     gender: "girls",
-    price: "$45",
+    price: "$55",
     dates: "12-Week Session",
     spotsLeft: 15
   },
@@ -269,7 +269,7 @@ export const registrationPrograms = [
     type: "class",
     ageRange: "8-17",
     gender: "coed",
-    price: "$45",
+    price: "$55",
     dates: "12-Week Session",
     spotsLeft: 20
   },
@@ -299,7 +299,7 @@ export const registrationPrograms = [
     type: "class",
     ageRange: "4-17",
     gender: "coed",
-    price: "$55",
+    price: "$65",
     dates: "90-Min Sessions",
     spotsLeft: 10
   },
@@ -329,7 +329,7 @@ export const registrationPrograms = [
     type: "league",
     ageRange: "8-14",
     gender: "boys",
-    price: "$45",
+    price: "$55",
     dates: "12-Week Session",
     spotsLeft: 12
   }
