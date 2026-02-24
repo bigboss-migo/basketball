@@ -32,7 +32,7 @@ const StaffBoard = () => {
       title: 'The Program',
       subtitle: 'Our Team, Our Club, Our Goal',
       description: 'This first episode takes you behind the scenes of Four Men living within the Queens Village Community, looking to build a home and sports club to aid student athletes within the community. As former student athletes, park players, and dedicated fans of the game, we believed we can not only make an impact, but a consistent presence for the well being of our next generation.',
-      image: 'https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/1d054b6a-03f4-4327-0b44-b7f47a9d0200/public'
+      image: 'https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/b1163228-26cc-423a-0693-099f15936400/public'
     }
   ];
 
