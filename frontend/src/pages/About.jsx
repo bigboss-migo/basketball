@@ -124,6 +124,15 @@ const About = () => {
             focus our foundation on teaching and aiding the fundamentals.
           </p>
         </div>
+        <blockquote className="mt-10 border-l-4 border-[#f7941d] pl-6 text-left mx-auto max-w-2xl">
+            <p className="text-[#1e3a5f] text-xl md:text-2xl font-semibold italic leading-relaxed">
+              "We believed we can not only make an impact, but a consistent presence for the well-being of our next generation."
+            </p>
+            <div className="mt-3 flex items-center gap-2">
+              <div className="w-8 h-0.5 bg-[#f7941d]" />
+              <span className="text-[#f7941d] text-sm font-bold uppercase tracking-widest">OHS Academy Inc.</span>
+            </div>
+          </blockquote>
       </section>
 
       {/* Vision Section */}
