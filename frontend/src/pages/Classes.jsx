@@ -40,7 +40,7 @@ const Classes = () => {
       details: [
         'Level: All skill levels welcome',
         'Duration: 90 minute sessions',
-        'Price: $55 per student per session',
+        'Price: $65 per student per session',
         'Customized training plan',
         'Flexible scheduling available'
       ],
@@ -63,11 +63,11 @@ const Classes = () => {
     },
     {
       question: 'What is the cost for group training?',
-      answer: 'Group Training Sessions are $45 per student for a 12-week program.'
+      answer: 'Group Training Sessions are $55 per student for a 12-week program.'
     },
     {
       question: 'Do you offer private training?',
-      answer: 'Yes! Private 1-on-1 Training is available at $55 per student for 90-minute sessions.'
+      answer: 'Yes! Private 1-on-1 Training is available at $65 per student for 90-minute sessions.'
     },
     {
       question: 'How do I contact the academy?',
