@@ -18,7 +18,7 @@ const StaffBoard = () => {
       title: 'Coach Dre',
       subtitle: 'The Ref, The Coach, The Teacher',
       description: 'Coach Dre has been a referee working in the community for over two decades. Originally influenced by elder leaders within the community, Coach Pete & Coach Darnell, he took it upon himself to pick up where they left off. He oversaw the CYO Program in SSJA and provided kids with ample opportunities.',
-      image: 'https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/ad7874bd-5dbb-4830-a09c-07af08cd5000/public'
+      image: 'https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/602ec76e-e227-4781-2f1e-a1fb149feb00/public'
     },
     {
       id: 'coach-alex',
@@ -32,7 +32,7 @@ const StaffBoard = () => {
       title: 'Coach Wells',
       subtitle: 'The Guru & Lead Advisor (Mr. Road Work)',
       description: 'Through his passion for providing structured programming for inner city kids, originally met teaching in Saint Joachim & Saints Anne School of Queens Village. A dedicated coach and mentor to the students in Queens Village for over 3 decades.',
-      image: 'https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/602ec76e-e227-4781-2f1e-a1fb149feb00/public'
+      image: 'https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/545342f0-18a7-4f6f-0628-376f08b7f100/public'
     },
     {
       id: 'the-program',
