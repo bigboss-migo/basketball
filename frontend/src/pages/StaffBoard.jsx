@@ -7,11 +7,11 @@ import { staffMembers } from '@/data/mockData';
 const StaffBoard = () => {
   const staffSections = [
     {
-      id: 'coach-Jon',
-      title: 'Coach Jon',
+      id: 'coach-dre',
+      title: 'Coach Dre',
       subtitle: 'The Ref, The Coach, The Teacher',
       description: 'Coach Dre has been a referee working in the community for over two decades. Originally influenced by elder leaders within the community, Coach Pete & Coach Darnell, he took it upon himself to pick up where they left off. He oversaw the CYO Program in SSJA and provided kids with ample opportunities.',
-      image: 'https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/99c80321-c88a-4f3d-4814-5e998dedc700/public'
+      image: 'https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/ad7874bd-5dbb-4830-a09c-07af08cd5000/public'
     },
     {
       id: 'coach-alex',
@@ -25,14 +25,14 @@ const StaffBoard = () => {
       title: 'Coach Wells',
       subtitle: 'The Guru & Lead Advisor (Mr. Road Work)',
       description: 'Through his passion for providing structured programming for inner city kids, originally met teaching in Saint Joachim & Saints Anne School of Queens Village. A dedicated coach and mentor to the students in Queens Village for over 3 decades.',
-      image: 'https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/545342f0-18a7-4f6f-0628-376f08b7f100/public'
+      image: 'https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/602ec76e-e227-4781-2f1e-a1fb149feb00/public'
     },
     {
       id: 'the-program',
       title: 'The Program',
       subtitle: 'Our Team, Our Club, Our Goal',
       description: 'This first episode takes you behind the scenes of Four Men living within the Queens Village Community, looking to build a home and sports club to aid student athletes within the community. As former student athletes, park players, and dedicated fans of the game, we believed we can not only make an impact, but a consistent presence for the well being of our next generation.',
-      image: 'https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/b1163228-26cc-423a-0693-099f15936400/public'
+      image: 'https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/1d054b6a-03f4-4327-0b44-b7f47a9d0200/public'
     }
   ];
 
@@ -67,11 +67,11 @@ const StaffBoard = () => {
                 key={section.id} 
                 className={`grid md:grid-cols-2 gap-8 items-center ${index % 2 === 1 ? 'md:flex-row-reverse' : ''}`}
               >
-                <div className={index % 2 === 1 ? 'md:order-2' : ''}>
+                <div className={`flex justify-center ${index % 2 === 1 ? 'md:order-2' : ''}`}>
                   <img
                     src={section.image}
                     alt={section.title}
-                    className="w-full h-72 object-cover rounded-lg shadow-lg"
+                    className="w-64 h-64 object-cover object-top rounded-lg shadow-lg"
                   />
                 </div>
                 <div className={index % 2 === 1 ? 'md:order-1' : ''}>
