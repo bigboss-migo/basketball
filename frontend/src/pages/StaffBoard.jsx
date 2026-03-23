@@ -25,7 +25,7 @@ const StaffBoard = () => {
       title: 'Coach Wells',
       subtitle: 'The Guru & Lead Advisor (Mr. Road Work)',
       description: 'Through his passion for providing structured programming for inner city kids, originally met teaching in Saint Joachim & Saints Anne School of Queens Village. A dedicated coach and mentor to the students in Queens Village for over 3 decades.',
-      image: 'https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/591e9709-4cff-4ef1-bbaf-1c96062e1100/public'
+      image: 'https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/545342f0-18a7-4f6f-0628-376f08b7f100/public'
     },
     {
       id: 'the-program',
