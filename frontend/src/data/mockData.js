@@ -33,8 +33,8 @@ export const staffMembers = {
       id: 1,
       name: "Coach Jon",
       role: "The Ref, The Coach, The Teacher",
-      image: "https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/ad7874bd-5dbb-4830-a09c-07af08cd5000/public",
-      bio: "Coach Dre has been a referee working in the community for over two decades. He oversaw the CYO Program in SSJA and provided kids with ample opportunities."
+      image: "https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/591e9709-4cff-4ef1-bbaf-1c96062e1100/public",
+      bio: "Coach Jon has been a referee working in the community for over two decades. He oversaw the CYO Program in SSJA and provided kids with ample opportunities."
     },
     {
       id: 2,
@@ -47,16 +47,16 @@ export const staffMembers = {
       id: 3,
       name: "Coach Wells",
       role: "The Guru & Lead Advisor",
-      image: "https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/602ec76e-e227-4781-2f1e-a1fb149feb00/public",
+      image: "https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/545342f0-18a7-4f6f-0628-376f08b7f100/public",
       bio: "A dedicated coach and mentor to the students in Queens Village for over 3 decades. Originally met teaching in Saint Joachim & Saints Anne School."
     }
   ],
   boysCoaches: [
     {
       id: 1,
-      name: "Coach Dre",
+      name: "Coach Jon",
       role: "Basketball & Multi-Sport Coach",
-      image: "https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/ad7874bd-5dbb-4830-a09c-07af08cd5000/public"
+      image: "https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/591e9709-4cff-4ef1-bbaf-1c96062e1100/public"
     },
     {
       id: 2,
@@ -68,7 +68,7 @@ export const staffMembers = {
       id: 3,
       name: "Coach Wells",
       role: "Track & Field Coach",
-      image: "https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/602ec76e-e227-4781-2f1e-a1fb149feb00/public"
+      image: "https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/545342f0-18a7-4f6f-0628-376f08b7f100/public"
     }
   ],
   girlsCoaches: [
@@ -80,9 +80,9 @@ export const staffMembers = {
     },
     {
       id: 2,
-      name: "Coach Dre",
+      name: "Coach Jon",
       role: "Multi-Sport Coach",
-      image: "https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/ad7874bd-5dbb-4830-a09c-07af08cd5000/public"
+      image: "https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/591e9709-4cff-4ef1-bbaf-1c96062e1100/public"
     }
   ],
   officeStaff: [
@@ -103,7 +103,7 @@ export const classes = [
     ageRange: "4-8",
     gender: "coed",
     description: "Introduction to basketball fundamentals including dribbling, passing, and shooting in a fun, supportive environment.",
-    price: "$55",
+    price: "$45",
     schedule: "Saturdays 9:00 AM - 10:00 AM",
     location: "Queens Village, NY"
   },
@@ -113,7 +113,7 @@ export const classes = [
     ageRange: "8-13",
     gender: "coed",
     description: "Building on fundamentals with advanced ball handling, defensive positioning, and game strategy.",
-    price: "$55",
+    price: "$45",
     schedule: "Saturdays 10:00 AM - 11:00 AM",
     location: "Queens Village, NY"
   },
@@ -123,7 +123,7 @@ export const classes = [
     ageRange: "13-17",
     gender: "coed",
     description: "Competitive-level training for serious athletes preparing for high school and AAU competition.",
-    price: "$55",
+    price: "$45",
     schedule: "Saturdays 11:00 AM - 12:00 PM",
     location: "Queens Village, NY"
   },
@@ -133,7 +133,7 @@ export const classes = [
     ageRange: "4-17",
     gender: "coed",
     description: "Comprehensive soccer training covering technical skills, tactical awareness, and game preparation.",
-    price: "$55",
+    price: "$45",
     schedule: "Sundays 10:00 AM - 11:00 AM",
     location: "Queens Village, NY"
   },
@@ -143,7 +143,7 @@ export const classes = [
     ageRange: "8-17",
     gender: "girls",
     description: "Girls-focused basketball training emphasizing skill development, teamwork, and confidence building.",
-    price: "$55",
+    price: "$45",
     schedule: "Sundays 11:00 AM - 12:00 PM",
     location: "Queens Village, NY"
   },
@@ -153,7 +153,7 @@ export const classes = [
     ageRange: "8-17",
     gender: "coed",
     description: "Speed development, endurance training, and proper form and technique for various track events.",
-    price: "$55",
+    price: "$45",
     schedule: "Sundays 1:00 PM - 2:00 PM",
     location: "Queens Village, NY"
   },
@@ -163,7 +163,7 @@ export const classes = [
     ageRange: "4-17",
     gender: "coed",
     description: "Personalized training sessions tailored to your athlete's specific needs and goals. 90-minute sessions.",
-    price: "$65",
+    price: "$55",
     schedule: "Flexible Scheduling",
     location: "Queens Village, NY"
   }
@@ -219,7 +219,7 @@ export const registrationPrograms = [
     type: "class",
     ageRange: "4-8",
     gender: "coed",
-    price: "$55",
+    price: "$45",
     dates: "12-Week Session",
     spotsLeft: 10
   },
@@ -229,7 +229,7 @@ export const registrationPrograms = [
     type: "class",
     ageRange: "8-13",
     gender: "coed",
-    price: "$55",
+    price: "$45",
     dates: "12-Week Session",
     spotsLeft: 8
   },
@@ -239,7 +239,7 @@ export const registrationPrograms = [
     type: "class",
     ageRange: "13-17",
     gender: "coed",
-    price: "$55",
+    price: "$45",
     dates: "12-Week Session",
     spotsLeft: 6
   },
@@ -249,7 +249,7 @@ export const registrationPrograms = [
     type: "class",
     ageRange: "4-17",
     gender: "coed",
-    price: "$55",
+    price: "$45",
     dates: "12-Week Session",
     spotsLeft: 12
   },
@@ -259,7 +259,7 @@ export const registrationPrograms = [
     type: "class",
     ageRange: "8-17",
     gender: "girls",
-    price: "$55",
+    price: "$45",
     dates: "12-Week Session",
     spotsLeft: 15
   },
@@ -269,7 +269,7 @@ export const registrationPrograms = [
     type: "class",
     ageRange: "8-17",
     gender: "coed",
-    price: "$55",
+    price: "$45",
     dates: "12-Week Session",
     spotsLeft: 20
   },
@@ -299,7 +299,7 @@ export const registrationPrograms = [
     type: "class",
     ageRange: "4-17",
     gender: "coed",
-    price: "$65",
+    price: "$55",
     dates: "90-Min Sessions",
     spotsLeft: 10
   },
@@ -329,7 +329,7 @@ export const registrationPrograms = [
     type: "league",
     ageRange: "8-14",
     gender: "boys",
-    price: "$55",
+    price: "$45",
     dates: "12-Week Session",
     spotsLeft: 12
   }
@@ -362,33 +362,41 @@ export const sponsors = {
   ]
 };
 
-// ── NEWS ─────────────────────────────────────────────────────────────────────
-// Only the three active articles are listed here.
-// "Community Event Recap", "Coach Spotlight: Coach Wells", and
-// "Summer Camp 2025 Preview" have been removed.
 export const news = [
   {
     id: 1,
     title: "OHS Academy Spring Registration Open",
-    excerpt:
-      "Registration is now live for our Spring 2026 programs in Basketball, Soccer, and Track & Field. Spots fill fast — secure your athlete's place today.",
-    date: "2026-02-20",
-    slug: "/blog/spring-registration"
+    excerpt: "Register now for our Spring 2025 programs in Basketball, Soccer, and Track & Field.",
+    date: "2025-01-15"
   },
   {
     id: 2,
     title: "AAU Season Announcement",
-    excerpt:
-      "OHS Academy is officially entering the 2026 AAU season. Learn about tryout dates, age divisions, tournament schedules, and what it takes to compete.",
-    date: "2026-02-15",
-    slug: "/blog/aau-season-announcement"
+    excerpt: "Exciting news about our upcoming AAU basketball season and tryout dates.",
+    date: "2025-01-10"
   },
   {
     id: 3,
+    title: "Community Event Recap",
+    excerpt: "Thank you to everyone who participated in our recent community sports day!",
+    date: "2025-01-05"
+  },
+  {
+    id: 4,
+    title: "Coach Spotlight: Coach Wells",
+    excerpt: "Celebrating 3+ decades of dedication to Queens Village youth athletics.",
+    date: "2024-12-20"
+  },
+  {
+    id: 5,
+    title: "Summer Camp 2025 Preview",
+    excerpt: "Get ready for another amazing summer of sports, fun, and growth!",
+    date: "2024-12-15"
+  },
+  {
+    id: 6,
     title: "Student Athlete Achievements",
-    excerpt:
-      "Celebrating our student athletes who are excelling on the court, on the track, and in the classroom. Their dedication is what OHS is all about.",
-    date: "2026-02-01",
-    slug: "/blog/student-athlete-achievements"
+    excerpt: "Celebrating our student athletes' accomplishments on and off the court.",
+    date: "2024-12-01"
   }
 ];
