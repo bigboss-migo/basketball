@@ -77,48 +77,7 @@ const Sponsor = () => {
         </div>
       </section>
 
-      {/* Lead Sponsors */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-[#1e3a5f] text-center mb-12">Our Lead Sponsors</h2>
-          <div className="flex flex-wrap justify-center items-center gap-12">
-            {sponsors.lead.map((sponsor) => (
-              <div 
-                key={sponsor.id} 
-                className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow"
-              >
-                <img
-                  src={sponsor.logo}
-                  alt={sponsor.name}
-                  className="h-16 object-contain grayscale hover:grayscale-0 transition-all"
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Community Sponsors */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-[#1e3a5f] text-center mb-12">Community Sponsors</h2>
-          <div className="flex flex-wrap justify-center items-center gap-12">
-            {sponsors.community.map((sponsor) => (
-              <div 
-                key={sponsor.id} 
-                className="bg-white p-6 rounded-lg border border-gray-200 hover:shadow-md transition-shadow"
-              >
-                <img
-                  src={sponsor.logo}
-                  alt={sponsor.name}
-                  className="h-12 object-contain"
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
+      
       {/* Contact Form */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
