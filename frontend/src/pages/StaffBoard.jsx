@@ -8,10 +8,17 @@ const StaffBoard = () => {
   const staffSections = [
     {
       id: 'coach-jon',
-      title: 'Coach Jon',
+      title: 'Coach Jon Ogeleza',
+      subtitle: 'Founder, OHS Academy Inc.',
+      description: 'Coach Jon Ogeleza, founder of OHS Academy Inc., is a dedicated basketball skills trainer and player development coach with over two decades of experience coaching youth, high school, college, and professional athletes.',
+      image: 'https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/591e9709-4cff-4ef1-bbaf-1c96062e1100/public'
+    },
+    {
+      id: 'coach-dre',
+      title: 'Coach Dre',
       subtitle: 'The Ref, The Coach, The Teacher',
       description: 'Coach Dre has been a referee working in the community for over two decades. Originally influenced by elder leaders within the community, Coach Pete & Coach Darnell, he took it upon himself to pick up where they left off. He oversaw the CYO Program in SSJA and provided kids with ample opportunities.',
-      image: 'https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/591e9709-4cff-4ef1-bbaf-1c96062e1100/public'
+      image: 'https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/ad7874bd-5dbb-4830-a09c-07af08cd5000/public'
     },
     {
       id: 'coach-alex',
@@ -25,7 +32,7 @@ const StaffBoard = () => {
       title: 'Coach Wells',
       subtitle: 'The Guru & Lead Advisor (Mr. Road Work)',
       description: 'Through his passion for providing structured programming for inner city kids, originally met teaching in Saint Joachim & Saints Anne School of Queens Village. A dedicated coach and mentor to the students in Queens Village for over 3 decades.',
-      image: 'https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/545342f0-18a7-4f6f-0628-376f08b7f100/public'
+      image: 'https://imagedelivery.net/qPl4NOqbLb6xIvDbtIUFUw/602ec76e-e227-4781-2f1e-a1fb149feb00/public'
     },
     {
       id: 'the-program',
@@ -46,9 +53,9 @@ const StaffBoard = () => {
             Our Coaches
           </h1>
           <p className="text-lg text-gray-300 max-w-2xl">
-            OHS Academy Inc. is built on the foundation of dedicated coaches who have spent
-            decades serving the Queens Village community. Our coaching staff brings together
-            experience, passion, and a commitment to developing the next generation of
+            OHS Academy Inc. is built on the foundation of dedicated coaches who have spent 
+            decades serving the Queens Village community. Our coaching staff brings together 
+            experience, passion, and a commitment to developing the next generation of 
             student athletes.
           </p>
           <div className="flex gap-1 mt-6">
@@ -63,8 +70,8 @@ const StaffBoard = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-16">
             {staffSections.map((section, index) => (
-              <div
-                key={section.id}
+              <div 
+                key={section.id} 
                 className={`grid md:grid-cols-2 gap-8 items-center ${index % 2 === 1 ? 'md:flex-row-reverse' : ''}`}
               >
                 <div className={index % 2 === 1 ? 'md:order-2' : ''}>
@@ -89,7 +96,7 @@ const StaffBoard = () => {
       <section className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <blockquote className="text-xl md:text-2xl text-[#1e3a5f] italic mb-4">
-            &ldquo;We believed we can not only make an impact, but a consistent presence
+            &ldquo;We believed we can not only make an impact, but a consistent presence 
             for the well being of our next generation.&rdquo;
           </blockquote>
           <cite className="text-gray-600">— OHS Academy Founders</cite>
